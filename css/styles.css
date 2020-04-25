@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #f3f3f3;
+}
+
+header {
+  background: #fff;
+  border-bottom: 0.1rem solid #d8d8d8;
+  height: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+}
+
+nav a:link {
+  color: #838383;
+}
+nav a:visited {
+  color: #838383;
+}
+
+nav a:hover {
+  background: #b9c941;
+  color: #fff;
+}
+
+nav a:active {
+  color: #535353;
+}
+
+#verde {
+  color: #b9c941;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 96rem;
+  margin: 2rem auto 2rem auto;
+  padding-top: 6rem;
+}
+
+.post {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.post h2 {
+  padding-bottom: 0.5rem;
+}
+
+.post img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+}
+
+.postado {
+  border-left: 0.5rem solid #d8d8d8;
+  padding-left: 0.5rem;
+  display: block;
+  margin-top: 1rem;
+}
+
+.data-postagem {
+  font-size: 1.4rem;
+  border-bottom: 0.2rem solid rgb(223, 217, 217);
+  display: block;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
