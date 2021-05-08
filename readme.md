@@ -7,6 +7,8 @@
 
 # TecnoBlog
 
+<img src="./assets/tecnoblog.png">
+
 A simply blog, created using only **HTML** and **CSS**.
 
 ## 📝 License
